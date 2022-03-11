@@ -7,4 +7,25 @@
 
 body {
     background-color: #191919;
+    padding: 3%
+}
+
+#introduction {
+    display: flex;
+}
+
+#img-half {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%
+
+}
+
+#img-border {
+    width: 50%;
+}
+
+#profileimg {
+    width: 50%;
 }
