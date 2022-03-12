@@ -215,7 +215,7 @@ body {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 370px) {
     #nav-links a {
         font-size: .7rem;
     }
