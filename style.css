@@ -15,9 +15,15 @@ body {
     max-width: 3000px;
 }
 
+.logo-text {
+    font-size: 6rem;
+    color: #38D16F;
+}
+
 #introduction {
     display: flex;
     flex-direction: row;
+    padding-bottom: 5%;
 }
 
 #img-half {
@@ -81,13 +87,70 @@ body {
     justify-content:space-between;
     max-width: 60%;
     min-width: 60%;
-
 }
 
 #nav-links a {
-
     text-decoration: none;
 }
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-section {
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me-logo {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    text-align: end;
+}
+
+#about-me-logo h1 {
+    width: 5ch;
+    padding: 10%;
+
+    border-bottom-style: solid;
+    border-bottom-color:#38D16F;
+    border-bottom-width: 5px;
+    border-right-style: solid;
+    border-right-color:#38D16F;
+    border-right-width: 5px;
+}
+
+#resume {
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    text-align: center;
+}
+
+#resume h3 {
+    width: 15ch;
+}
+
+#resume span {
+    color:#38D16F;
+}
+
+#resume a {
+    text-decoration: none;
+}
+
+#text-section {
+    width: 50%;
+}
+
+#text-section {
+    padding: 3%;
+}
+
 
 @media (max-width: 900px) {
     #introduction {
