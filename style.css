@@ -9,10 +9,10 @@
 body {
     display: flex;
     flex-direction: column;
-
     background-color: #191919;
     padding: 3%;
-    max-width: 3000px;
+    max-width: 2000px;
+    margin: auto;
 }
 
 .logo-text {
@@ -149,11 +149,18 @@ body {
 }
 
 #text-section {
+    width: 40ch;
     padding: 3%;
+    font-size: 1.3rem;
+    text-align: end;
 }
 
 
 @media (max-width: 900px) {
+    .logo-text {
+        font-size: 2rem;
+    }
+
     #introduction {
         flex-direction: column-reverse;
     }
@@ -166,5 +173,44 @@ body {
     #text-half {
         width: 100%;
         padding-top: 15%;
+    }
+
+    #nav-links a {
+        font-size: .9rem;
+    }
+
+    #about-me{
+        flex-direction: column;
+    }
+
+    #logo-section {
+        width: 100%
+    }
+
+    #about-me-logo {
+        padding: 2%;
+    }
+
+    #about-me-logo h1 {
+        display: flex;
+        width: initial;
+        padding: 2%;
+
+    
+        border-bottom-style: solid;
+        border-bottom-color:#38D16F;
+        border-bottom-width: 5px;
+        border-right-style: initial;
+        border-right-color: initial;
+        border-right-width: initial;
+    }
+
+    #resume {
+        padding: 2%;
+    }
+
+    #text-section {
+        width: 90%;
+        padding: 5%
     }
 }
