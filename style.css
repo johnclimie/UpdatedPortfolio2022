@@ -98,7 +98,7 @@ body {
     flex-direction: row;
 }
 
-#logo-section {
+#about-me-logo-section {
     width: 50%;
     padding: 3%;
     display: flex;
@@ -152,6 +152,35 @@ body {
     width: 40ch;
     padding: 3%;
     font-size: 1.3rem;
+    text-align: end;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-logo-section {
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-logo h1 {
+    display: flex;
+    padding: 10%;
+    border-bottom-style: solid;
+    border-bottom-color:#38D16F;
+    border-bottom-width: 5px;
+    border-right-style: solid;
+    border-right-color:#38D16F;
+    border-right-width: 5px;
+}
+
+#projects-logo {
+    display: flex;
+    justify-content: center;
     text-align: end;
 }
 
