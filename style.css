@@ -226,7 +226,12 @@ body {
 }
 
 #project-desc {
+    padding-bottom: 2%;
     font-size: 1.3rem;
+    border-bottom-style: solid;
+    border-bottom-color:#38D16F;
+    border-bottom-width: 5px;
+    
 }
 
 #project-languages {
@@ -273,6 +278,35 @@ body {
     font-size: 1.5rem;
     text-decoration: none;
     font-weight: bold;
+}
+
+#contact-me {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-logo-section {
+    width: 50%;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-logo {
+    display: flex;
+    justify-content: center;
+    text-align: end;
+}
+
+#contact-logo h1 {
+    display: flex;
+    padding: 10%;
+    border-bottom-style: solid;
+    border-bottom-color:#38D16F;
+    border-bottom-width: 5px;
+    border-right-style: solid;
+    border-right-color:#38D16F;
+    border-right-width: 5px;
 }
 
 
