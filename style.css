@@ -188,6 +188,8 @@ body {
 #project1 {
     width: 80%;
     margin: 5%;
+    padding: 3%;
+    background-color: #1e1e1e;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -261,6 +263,18 @@ body {
     color: black
 }
 
+#project-links {
+    padding: 3%;
+    display: flex;
+    justify-content:space-around
+}
+
+#project-links a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 @media (max-width: 900px) {
     .logo-text {
@@ -318,6 +332,32 @@ body {
     #text-section {
         width: 90%;
         padding: 5%
+    }
+
+    #projects-logo h1 {
+        display: flex;
+        width: initial;
+        padding: 2%;
+
+        border-bottom-style: solid;
+        border-bottom-color:#38D16F;
+        border-bottom-width: 5px;
+        border-right-style: initial;
+        border-right-color: initial;
+        border-right-width: initial;
+    }
+
+    #project-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #project-img-container {
+        width: 100%;
+    }
+
+    #project-info {
+        width: 100%;
     }
 }
 
