@@ -309,6 +309,94 @@ body {
     border-right-width: 5px;
 }
 
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 3%;
+    width: 75%;
+    background-color: #1e1e1e;
+}
+
+#contact-name {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#contact-name div {
+    width: 50%;
+}
+
+#contact-name div h3 {
+    font-size: 1.8rem;
+    padding: 3%;
+}
+
+#contact-name div input {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    width: 80%;
+    padding: 3%;
+}
+
+#contact-email {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 3%
+}
+
+#contact-email h3 {
+    font-size: 1.8rem;
+    padding: 3%;
+}
+
+#contact-email input {
+    display: flex;
+    align-self: center;
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    width: 80%;
+    padding: 3%;
+}
+
+#contact-message {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#contact-message {
+    font-size: 1.8rem;
+    padding: 3%;
+}
+
+#contact-message textarea {
+    display: flex;
+    color: black;
+    font-size: 1.5rem;
+    padding: 3%;
+}
+
+#form-btn {
+    display: flex;
+    align-self: center;
+    border: none;
+    padding: 1% 2%;
+    background-color: #38D16F;
+    color: black;
+    font-size: 1.8rem;
+    text-align: center;
+}
 
 @media (max-width: 900px) {
     .logo-text {
