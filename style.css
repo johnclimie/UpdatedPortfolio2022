@@ -493,6 +493,35 @@ body {
     #project-info {
         width: 100%;
     }
+
+    #project-links {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #contact-logo h1 {
+        display: flex;
+        width: initial;
+        padding: 2%;
+
+    
+        border-bottom-style: solid;
+        border-bottom-color:#38D16F;
+        border-bottom-width: 5px;
+        border-right-style: initial;
+        border-right-color: initial;
+        border-right-width: initial;
+    }
+
+    #contact-name {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #footer {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 370px) {
